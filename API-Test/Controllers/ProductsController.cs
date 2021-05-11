@@ -39,7 +39,7 @@ namespace API_Test.Controllers
                 return NotFound();
             }
 
-            return product;
+            return Ok(product);
         }
 
         // PUT: api/Products/5
@@ -93,7 +93,7 @@ namespace API_Test.Controllers
 
             await _productRepository.DeleteProduct(product.ProductId);
 
-            return NoContent();
+            return Ok();
         }
     }
 }

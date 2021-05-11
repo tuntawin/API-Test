@@ -30,7 +30,8 @@ namespace API_Test
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<NORTHWNDContext>(opt => opt.UseSqlServer("Server=TEERAPONG\\SQLSERVER2014;Database=NORTHWND;Trusted_Connection=True;"));
+            var connection = Configuration.GetConnectionString("ConnectionString");
+            services.AddDbContext<NORTHWNDContext>(opt => opt.UseSqlServer(connection));
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

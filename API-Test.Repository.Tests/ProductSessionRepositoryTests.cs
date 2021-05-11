@@ -1,14 +1,14 @@
-using API_Test.Database.Models;
+﻿using API_Test.Database.Models;
+using API_Test.Repository.Interfaces;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Threading.Tasks;
+using Xunit;
 
 namespace API_Test.Repository.Tests
 {
-    [TestClass]
     public class ProductSessionRepositoryTests : NORTHWNDContextTest
     {
-        [TestMethod]
+        [Fact]
         public async Task GetProductById_TestAsync()
         {
             //Arrange
@@ -20,14 +20,14 @@ namespace API_Test.Repository.Tests
             var result = await productSessionRepository.GetProductById(productId);
 
             //Assert
-            Assert.AreEqual(productId, result.ProductId);
-            Assert.AreEqual(productName, result.ProductName);
+            Assert.Equal(productId, result.ProductId);
+            Assert.Equal(productName, result.ProductName);
 
             //Clean up
             DbContext.Dispose();
         }
 
-        [TestMethod]
+        [Fact]
         public async Task DeleteProduct_TestAsync()
         {
             //Arrange
@@ -41,7 +41,7 @@ namespace API_Test.Repository.Tests
             var result = await productSessionRepository.GetProductById(productId);
 
             //Assert
-            Assert.IsTrue(result == null);
+            Assert.True(result == null);
 
             //Clean up
             DbContext.Dispose();
