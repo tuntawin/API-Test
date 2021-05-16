@@ -6,10 +6,10 @@ namespace API_Test.Repository.Interfaces
 {
     public interface IProductSessionRepository
     {
-        Task<Product> GetProductById(int id);
+        Task<Product> GetById(int id);
         Task<IList<Product>> GetAll();
-        Task<int> AddProduct(Product session);
-        int UpdateProduct(Product session);
-        Task<int> DeleteProduct(int id);
+        Task<int> Add(Product session);
+        int Update(Product session);
+        Task<int> Delete(int id);
     }
 }

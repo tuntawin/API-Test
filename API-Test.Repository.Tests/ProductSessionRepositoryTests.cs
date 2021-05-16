@@ -17,7 +17,7 @@ namespace API_Test.Repository.Tests
             int productId = 5;
             string productName = "Chef Anton's Gumbo Mix _ Test";
             //Act
-            var result = await productSessionRepository.GetProductById(productId);
+            var result = await productSessionRepository.GetById(productId);
 
             //Assert
             Assert.Equal(productId, result.ProductId);
@@ -36,9 +36,9 @@ namespace API_Test.Repository.Tests
             int productId = 78;
 
             //Act
-            await productSessionRepository.DeleteProduct(productId);
+            await productSessionRepository.Delete(productId);
 
-            var result = await productSessionRepository.GetProductById(productId);
+            var result = await productSessionRepository.GetById(productId);
 
             //Assert
             Assert.True(result == null);

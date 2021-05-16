@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using API_Test.Database.Models;
 using API_Test.Repository.Interfaces;
+using API_Test.Services.Interfaces;
 
 namespace API_Test.Controllers
 {
@@ -14,10 +15,12 @@ namespace API_Test.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
+        private readonly IProductServices _productServices;
         private readonly IProductSessionRepository _productRepository;
 
-        public ProductsController(IProductSessionRepository productRepository)
+        public ProductsController(IProductServices productServices, IProductSessionRepository productRepository)
         {
+            _productServices = productServices;
             _productRepository = productRepository;
         }
 
@@ -32,7 +35,7 @@ namespace API_Test.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
-            var product = await _productRepository.GetProductById(id);
+            var product = await _productServices.GetProduct(id);
 
             if (product == null)
             {
@@ -54,7 +57,7 @@ namespace API_Test.Controllers
 
             try
             {
-                await _productRepository.DeleteProduct(id);
+                await _productServices.DeleteProduct(id);
             }
             catch (DbUpdateConcurrencyException)
             {
@@ -71,7 +74,7 @@ namespace API_Test.Controllers
         {
             try
             {
-                await _productRepository.AddProduct(product);
+                await _productRepository.Add(product);
             }
             catch(Exception)
             {
@@ -85,13 +88,13 @@ namespace API_Test.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProduct(int id)
         {
-            var product = await _productRepository.GetProductById(id);
+            var product = await _productServices.GetProduct(id);
             if (product == null)
             {
                 return NotFound();
             }
 
-            await _productRepository.DeleteProduct(product.ProductId);
+            await _productServices.DeleteProduct(product.ProductId);
 
             return Ok();
         }

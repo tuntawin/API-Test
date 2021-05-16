@@ -16,7 +16,7 @@ namespace API_Test.Repository
             _context = context;
         }
 
-        public async Task<int> AddProduct(Product session)
+        public async Task<int> Add(Product session)
         {
             _context.Products.Add(session);
             return await _context.SaveChangesAsync();
@@ -27,7 +27,7 @@ namespace API_Test.Repository
             return await _context.Products.ToListAsync();
         }
 
-        public async Task<int> DeleteProduct(int id)
+        public async Task<int> Delete(int id)
         {
             var product = _context.Products.SingleOrDefault(m => m.ProductId == id);
             if (product == null)
@@ -39,13 +39,13 @@ namespace API_Test.Repository
             return await _context.SaveChangesAsync();
         }
 
-        public async Task<Product> GetProductById(int id)
+        public async Task<Product> GetById(int id)
         {
             var product = await _context.Products.FindAsync(id);
             return product;           
         }
 
-        public int UpdateProduct(Product session)
+        public int Update(Product session)
         {
             _context.Entry(session).State = EntityState.Modified;
             return _context.SaveChanges();

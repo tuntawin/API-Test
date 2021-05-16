@@ -2,6 +2,7 @@
 using API_Test.Database.Models;
 using API_Test.Repository;
 using API_Test.Repository.Interfaces;
+using API_Test.Services;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.TestHost;
@@ -24,8 +25,9 @@ namespace API_Test.Tests
         public async void GetProductByIdTest_Return_OkResult()
         {
             //Arrange
-            var repository = new ProductSessionRepository(DbContext);
-            var controller = new ProductsController(repository);
+            var productRepo = new ProductSessionRepository(DbContext);
+            var productService = new ProductServices(productRepo);
+            var controller = new ProductsController(productService, productRepo);
             var productId = 5;
             string expectedName = "Chef Anton's Gumbo Mix _ Test";
 
@@ -42,8 +44,9 @@ namespace API_Test.Tests
         public async void DeleteProductByIdTest_Return_OkResult()
         {
             //Arrange
-            var repository = new ProductSessionRepository(DbContext);
-            var controller = new ProductsController(repository);
+            var productRepo = new ProductSessionRepository(DbContext);
+            var productService = new ProductServices(productRepo);
+            var controller = new ProductsController(productService, productRepo);
             var productId = 78;
 
             //Act

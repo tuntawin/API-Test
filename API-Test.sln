@@ -18,6 +18,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Lib\NORTHWIND.sql = Lib\NORTHWIND.sql
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API-Test.Services", "API-Test.Services\API-Test.Services.csproj", "{20E4627A-0D80-4340-A85B-ABD10966BBC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API-Test.Services.Tests", "API-Test.Services.Tests\API-Test.Services.Tests.csproj", "{0E3AB481-21D2-4EB1-8D65-36CD8037A8B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +48,14 @@ Global
 		{7437D615-754D-430C-AC4C-63A5FED79F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7437D615-754D-430C-AC4C-63A5FED79F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7437D615-754D-430C-AC4C-63A5FED79F29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20E4627A-0D80-4340-A85B-ABD10966BBC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20E4627A-0D80-4340-A85B-ABD10966BBC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20E4627A-0D80-4340-A85B-ABD10966BBC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20E4627A-0D80-4340-A85B-ABD10966BBC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E3AB481-21D2-4EB1-8D65-36CD8037A8B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E3AB481-21D2-4EB1-8D65-36CD8037A8B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E3AB481-21D2-4EB1-8D65-36CD8037A8B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E3AB481-21D2-4EB1-8D65-36CD8037A8B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

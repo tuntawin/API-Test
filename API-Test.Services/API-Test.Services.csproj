@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>API_Test.Services</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\API-Test.Database\API-Test.Database.csproj" />
+    <ProjectReference Include="..\API-Test.Repository\API-Test.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

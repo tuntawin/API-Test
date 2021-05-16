@@ -1,6 +1,8 @@
 using API_Test.Database.Models;
 using API_Test.Repository;
 using API_Test.Repository.Interfaces;
+using API_Test.Services;
+using API_Test.Services.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -39,6 +41,8 @@ namespace API_Test
             });
 
             services.AddScoped<IProductSessionRepository, ProductSessionRepository>();
+
+            services.AddScoped<IProductServices, ProductServices>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
