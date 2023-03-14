@@ -1,26 +1,178 @@
-[
-    {
-      "id": "g1",   
-      "title": "View",
-      "text": "Text1.",
-      "img": "1Ty7KPVnNCkYDjOFqyGVocfJiTK429uj-"
-    },
-    {
-      "id": "g2",
-      "title": "View",
-      "text": "Text2.",
-      "img": "1aSVo8Wb-eDKY7Xjpkiz_WmB83sgNTdFL"
-    },
-    {
-      "id": "g3",
-      "title": "View",
-      "text": "Text3.",
-      "img": "1mgn0BjkBT6CVew0D5TrSiy-KYwMFzNEW"
-    },
-    {
-      "id": "g4",
-      "title": "View",
-      "text": "Text4",
-      "img": "1UGk8XmfuLHFjhVLYeofAPAzX-JQSygIb"
-    }
-  ]
+{
+"SiteName" : "Neculus APE"
+,"Story" : [
+{
+"Name": "Story01"
+,"Image": "https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEORKtZSkpmNekArgcEUYVm7iY7w8fOddhhziGbUXe7wlsIMeKx_v-9AhoXjvw5Qp8tjIVapwf1_sc9Gr5okYJ8gS4gjt=w1920-h892"
+,"Detail": "Voting is a right that allow citizens to make their voices heard,but as many as half of eligible voters in Thailand do not participant in the election process."
+}
+,{
+"Name": "Story02"
+,"Image": "https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOQ0bDgfJJgsp2S8K1uZqtzya8QlRcs0mSWaSxjwZLZ6mnAUCVQ4D5gvqkM2lPeWNPzBhzfr2uqA0m019g636pyKcHRLeA=w1267-h892"
+,"Detail": "Story02"
+}
+,{
+"Name": "Story03"
+,"Image": "https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOQNfP3ekpTDRnEoI-DDBuFSWuhLAsNeydBSO0sa066i3c4GrAYT47WSG0iI2qZTRguizUOzZ3I4t1xUXNFZFuMc1w3H7Q=w1267-h892"
+,"Detail": "Story03"
+}
+,{
+"Name": "Story04"
+,"Image": "https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOSzQH1GjibHPzNWtBYGte2lO5rhBCiMbUsIX3YzPpfHv8jDSIlg34Pvqsow73b_EJENTN7Ely1q_hl9T-Na-YQv2TWT=w1267-h892"
+,"Detail": "Story04"
+}
+,{
+"Name": "Story05"
+,"Image": "https://lh3.googleusercontent.com/u/2/drive-viewer/AAOQEOQ-AdbOAK5rsuv6F2xFHENtSqThNeAJQfZiPies7BmHP-6hGSVoH004X-Ea5xSUIwjV2l80PSi7D76-iVTtgeUWtIAAXQ=w1267-h892"
+,"Detail": "Story05"
+}
+,{
+"Name": "Story06"
+,"Image": "https://lh3.googleusercontent.com/u/2/drive-viewer/AAOQEORv4mUIX1wLm_xXQec2mL6fIRoYd14gM38l7dkDPEyvzpJyd4sjNg_5agfPaMKgQ-yZtySyi5t9zX5nPb5KNUJxi_9H8Q=w1267-h892"
+,"Detail": "Story06"
+}
+,{
+"Name": "Story07"
+,"Image": "https://lh3.googleusercontent.com/u/2/drive-viewer/AAOQEOQYiUO9eOPOzS2QbaX4HhDc7bZ2UDnMlyoPT4hzfjMdEIVeE8EeJgdKrIqTebULTzKbia4iZMNO9WCx_yuFnD62NbKq=w1267-h892"
+,"Detail": "Story07"
+}
+]
+,"Role" : [
+{
+"Name": "KingName 01"
+,"Image": "https://lh3.googleusercontent.com/u/2/drive-viewer/AAOQEOR2Rno81V0fxHzPW_2nM9v_8LjUubUUELBikhSdkOsBk-1HNzsdMWPtg-4VFQ0hkbUEbZ5TlAu2D1CZyF-m0FVA7gOPcA=w1920-h892"
+,"Detail": "KingDetail 01"
+,"Action": "KingAction 01"
+}
+,{
+"Name": "KingName 02"
+,"Image": "https://lh3.googleusercontent.com/u/2/drive-viewer/AAOQEOSE41kaWtU3-kz4NDxmEKBbyx_pvdAZ7qq72JBS82-C4w6uW0kRECyBdfXdcMO0hxg47KVgZ9s8OQjWqHXgujTKt3-5=w1920-h892"
+,"Detail": "KingDetail 02"
+,"Action": "KingAction 02"
+}
+,{
+"Name": "KingName 03"
+,"Image": "https://lh3.googleusercontent.com/u/2/drive-viewer/AAOQEOQzwRa78Ik2oGN8tiCMo_xl7iZBQyQMnChRzFhZx1R8fkBaVvqdsHWvwYK7NY9IpxMM8Ha2uhfuLrPNjhZmUlGfSiygOA=w1920-h892"
+,"Detail": "KingDetail 03"
+,"Action": "KingAction 03"
+}
+,{
+"Name": "KingName 04"
+,"Image": "https://lh3.googleusercontent.com/u/2/drive-viewer/AAOQEOQdBt6zrcMa3DBQkIugkjqz03otu12gICGhG2Hf0b0i8pkDMqms2Rw6wYKbtuJcHWKcQJlD--A6xCaoWxNRJD7asy15nw=w1267-h892"
+,"Detail": "KingDetail 04"
+,"Action": "KingAction 04"
+}
+,{
+"Name": "KingName 05"
+,"Image": "https://lh3.googleusercontent.com/u/2/drive-viewer/AAOQEOS0psAUlC1Gu4iyLRAASzZmb7zDtR-CK3iu6TSAzNFrqWVy86plFlgP7smmdy_UfyQPg_UDkfUyuYqdpVxAHnyQ3ZmoNQ=w1267-h892"
+,"Detail": "KingDetail 05"
+,"Action": "KingAction 05"
+}
+,{
+"Name": "KingName 06"
+,"Image": "https://lh3.googleusercontent.com/u/2/drive-viewer/AAOQEORrJll6kXqnvz95CgECjgpcKnWw2R2nJuUtiNMbJjC0ddCLeQBGk8pFzjM5eEUROo0bUVlucx6oI56Ie-chdG4Ztw6UMA=w1267-h892"
+,"Detail": "KingDetail 06"
+,"Action": "KingAction 06"
+}
+,{
+"Name": "KingName 07"
+,"Image": "https://lh3.googleusercontent.com/u/2/drive-viewer/AAOQEOQo-_MwgAgVt865j7Pk9gdGy4iimFHjmdVtQeAgW3lrc9Ts8s7_i4zyqJCPeeDtG9YmDXHkle-EGEvdAtP7pXB2dtGdvw=w1267-h892"
+,"Detail": "KingDetail 07"
+,"Action": "KingAction 07"
+}
+,{
+"Name": "KingName 08"
+,"Image": "https://lh3.googleusercontent.com/u/2/drive-viewer/AAOQEOQlM9ssx82ddDeS0-LZ47ICwmZHXteLnU-RSORWgM7wEvZ9DpkoK2tuIdSRnf2-shqo9pDOKEvoQHz4yPx6f26hkSlC=w1267-h892"
+,"Detail": "KingDetail 08"
+,"Action": "KingAction 08"
+}
+,{
+"Name": "KingName 09"
+,"Image": "https://lh3.googleusercontent.com/u/2/drive-viewer/AAOQEOROtpwen6ALd4yrxQj5vF4qFCWhsPoMyuh3FEI8QFcDRLQ45fLdKGRzIswPwFst5c49HcXikjneAkKAN4DsaQ27NkRm=w1267-h892"
+,"Detail": "KingDetail 09"
+,"Action": "KingAction 09"
+}
+,{
+"Name": "KingName 10"
+,"Image": "https://lh3.googleusercontent.com/u/2/drive-viewer/AAOQEORIe-M6QuvcWSKV5Xbx0wkfri8yx4O6L6W_cX49y7rQVh4nQJqrZhtcupvc-ZyFynhrPREqb60ALPxcNxVjsU8FU5uaag=w1267-h892"
+,"Detail": "KingDetail 10"
+,"Action": "KingAction 10"
+}
+,{
+"Name": "KingName 11"
+,"Image": "https://lh3.googleusercontent.com/u/2/drive-viewer/AAOQEOTNA4AHchtqZYCwgW7-8FXzV6KHzapNV2h6jrL7Pte1fbcIzYvOFiXArRVmPlhZ-ANBPl0n6JRlda_uV0L67EFNl6FpJw=w1267-h892"
+,"Detail": "KingDetail 11"
+,"Action": "KingAction 11"
+}
+,{
+"Name": "KingName 12"
+,"Image": "https://lh3.googleusercontent.com/u/2/drive-viewer/AAOQEOQIESdOF_luy7t1BUZD_uh8Wlk78p8sDXs07fpuAhxT2BUWS5o9z91Xi7p7D_Rcn-m0V1jOizRBHsGSVqrGdZWkegNP=w1267-h892"
+,"Detail": "KingDetail 12"
+,"Action": "KingAction 12"
+}
+,{
+"Name": "KingName 13"
+,"Image": "https://lh3.googleusercontent.com/u/2/drive-viewer/AAOQEOR900dsIPJ5Y-c4BARohR8L_-q5CisJCHwaMLyFXr1xw7GDQODp_fRov8A56hL4DnsFqFp3BgoWX6FCrzA_OxfxujJQHw=w1267-h892"
+,"Detail": "KingDetail 13"
+,"Action": "KingAction 13"
+}
+,{
+"Name": "KingName 14"
+,"Image": "https://lh3.googleusercontent.com/u/2/drive-viewer/AAOQEOTqRIZaJstpDsC-lbvJ4NYs2ro1lb4NELcQk0qk1L3QII8AEP1tAsviJyA__wlRjR5aR_9In5MVFHbnBDMrHHczispe=w1267-h892"
+,"Detail": "KingDetail 14"
+,"Action": "KingAction 14"
+}
+]
+,"About": "XXXXXXXXXXXXXXXXXX"
+,"FAQ": [
+{
+"Question": "WHAT IS APE GANG? WHAT ARE ITS ORIGINS? "
+,"Answer": "APE Gang is a 10K NFT project."
+}
+,{
+"Question": "WHO ARE THE ARTISTS? "
+,"Answer": "This project is the combined work of 3 artists, Purika is main artist, Aui and Supply is assistant."
+}
+,{
+"Question": "WHAT IS THE MINT INFO?"
+,"Answer": "Date - expected Q6 / 2023 | Pre-sale date - TBA"
+}
+,{
+"Question": "MINT PRICE"
+,"Answer": "Pre-sale (WL) will be 0.08 ETH for WL  |  Public Sale will be 0.15 ETH."
+}
+,{
+"Question": "HOW WILL THE 10K NFTS BE DISTRIBUTED?"
+,"Answer": "We have reserved around 70% of our community mint for WL. The rest will be for public sale, reward the team/mods and future marketing."
+}
+]
+,"WhitePaperLink" : "https://neculusape-6e399.web.app/"
+,"SocialLink":[
+{
+"Name" : "Twitter"
+,"Image" : "http://www.beartai.com/wp-content/uploads/2015/12/Twitter-4.0-for-OS-X-app-icon-small.png"
+,"URL" : "https://twitter.com/"
+}
+,{
+"Name" : "Facebook"
+,"Image" : "https://cdn.iconscout.com/icon/free/png-256/facebook-logo-2019-1597680-1350125.png"
+,"URL" : "https://web.facebook.com/home.php"
+}
+,{
+"Name" : "Discord"
+,"Image" : "https://theme.zdassets.com/theme_assets/678183/84b82d07b293907113d9d4dafd29bfa170bbf9b6.ico"
+,"URL" : "https://discord.gg/"
+}
+,{
+"Name" : "Opensea"
+,"Image" : "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/bmbgoqtahdiy8uxjn7zv"
+,"URL" : "https://www.crunchbase.com/organization/opensea"
+}
+,{
+"Name" : "Telegram"
+,"Image" : "https://osx.tlgr.org/updates/site/logo.png"
+,"URL" : "https://web.telegram.org/z/"
+}
+]
+}
+
