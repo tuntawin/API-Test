@@ -2,36 +2,43 @@
    "SiteName":"Neculus APE",
    "Story":[
       {
+	 "Id":1,
          "Name":"Story01",
          "Image":"https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEORKtZSkpmNekArgcEUYVm7iY7w8fOddhhziGbUXe7wlsIMeKx_v-9AhoXjvw5Qp8tjIVapwf1_sc9Gr5okYJ8gS4gjt=w1920-h892",
          "Detail":"Voting is a right that allow citizens to make their voices heard,but as many as half of eligible voters in Thailand do not participant in the election process."
       },
       {
+	      "Id":2,
          "Name":"Story02",
          "Image":"https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOQ0bDgfJJgsp2S8K1uZqtzya8QlRcs0mSWaSxjwZLZ6mnAUCVQ4D5gvqkM2lPeWNPzBhzfr2uqA0m019g636pyKcHRLeA=w1267-h892",
          "Detail":"Story02"
       },
       {
+	      "Id":3,
          "Name":"Story03",
          "Image":"https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOQNfP3ekpTDRnEoI-DDBuFSWuhLAsNeydBSO0sa066i3c4GrAYT47WSG0iI2qZTRguizUOzZ3I4t1xUXNFZFuMc1w3H7Q=w1267-h892",
          "Detail":"Story03"
       },
       {
+	      "Id":4,
          "Name":"Story04",
          "Image":"https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOSzQH1GjibHPzNWtBYGte2lO5rhBCiMbUsIX3YzPpfHv8jDSIlg34Pvqsow73b_EJENTN7Ely1q_hl9T-Na-YQv2TWT=w1267-h892",
          "Detail":"Story04"
       },
       {
+	      "Id":5,
          "Name":"Story05",
          "Image":"https://lh3.googleusercontent.com/u/2/drive-viewer/AAOQEOQ-AdbOAK5rsuv6F2xFHENtSqThNeAJQfZiPies7BmHP-6hGSVoH004X-Ea5xSUIwjV2l80PSi7D76-iVTtgeUWtIAAXQ=w1267-h892",
          "Detail":"Story05"
       },
       {
+	      "Id":6,
          "Name":"Story06",
          "Image":"https://lh3.googleusercontent.com/u/2/drive-viewer/AAOQEORv4mUIX1wLm_xXQec2mL6fIRoYd14gM38l7dkDPEyvzpJyd4sjNg_5agfPaMKgQ-yZtySyi5t9zX5nPb5KNUJxi_9H8Q=w1267-h892",
          "Detail":"Story06"
       },
       {
+	      "Id":7,
          "Name":"Story07",
          "Image":"https://lh3.googleusercontent.com/u/2/drive-viewer/AAOQEOQYiUO9eOPOzS2QbaX4HhDc7bZ2UDnMlyoPT4hzfjMdEIVeE8EeJgdKrIqTebULTzKbia4iZMNO9WCx_yuFnD62NbKq=w1267-h892",
          "Detail":"Story07"
